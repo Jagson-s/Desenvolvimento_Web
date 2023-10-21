@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+}
+
+#Index {
+    background-color: black;
+    height: auto;
+    width: auto;
+    color: dodgerblue;
+}
+
+#Login {
+    color: cadetblue;
+    text-decoration: none;
+}
+
+.txt_Album {
+    color: cadetblue;
+    text-decoration: none;
+
+}
+
+.img_Album {
+
+    width: 200px;
+    height: 200px;
+}
+
+.Album {
+    display: flex;
+    flex-direction: column;
+}
+
+.Albuns {
+    display: flex;
+}
+
+nav {
+    display: flex;
+    background-color: cornflowerblue;
+    align-items: center;
+    height: 10vh;
+}
+
+#br_Navegacao {
+    display: flex;
+    list-style: none;
+}
+
+.it_Navegacao {
+    background-color: cadetblue;
+    border-radius: 15px;
+    padding: 8px;
+
+    margin: 10px;
+    margin-right: 20px;
+}
