@@ -1,57 +1,180 @@
 *{
     margin: 0;
+    padding: 0;
 }
 
-#Index {
+/*Estilização da pagina inicial*/
+#Index { 
     background-color: black;
     height: auto;
-    width: auto;
+    color: darkblue;
+}
+
+/*Estilização da pagina de login*/
+/*#Login { 
+    color: cadetblue;
+    text-decoration: none;
+}*/
+
+/*Titulo dos albuns na página inicial*/
+.txt_Album { 
     color: dodgerblue;
-}
-
-#Login {
-    color: cadetblue;
     text-decoration: none;
+    font-size: 20pt;
 }
 
-.txt_Album {
-    color: cadetblue;
-    text-decoration: none;
-
+/*Imagens dos albuns na pagina inicial*/
+.img_Album { 
+    width: 300px;
+    height: 300px;
+    border-radius: 100px;
 }
 
-.img_Album {
-
-    width: 200px;
-    height: 200px;
-}
-
-.Album {
+/*Cada album individual na pagina inicial*/
+.Album { 
     display: flex;
     flex-direction: column;
+    flex: 0 0 calc(30% - 30px);
+    align-items: center;
+    padding: 10px;
+    margin: 10px auto;
 }
 
-.Albuns {
+/*Coleção de todos os albuns na pagina inicial*/
+.Albuns { 
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
+/*Titulo individual de cada pagina de album*/
+.titulo_Album { 
+    font-size: 30pt;
+    color: darkblue;
+    padding-left: 1vw;
+}
+
+/*Cada musica individual*/
+.Musica { 
+    display: flex;
+    /*flex-direction: column;
+    flex: 0 0 calc(30% - 30px);*/
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    text-align: center;
+    background-color: skyblue;
+    border-radius: 30px;
+}
+
+/*Titulo de cada musica*/
+.titulo_Musica { 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: darkblue;
+    flex-grow: 1;
+    /*background-color: cadetblue;*/
+}
+
+/*Coleção de todas as musicas*/
+.Colecao { 
+    margin: 0;
+    /*background-color: darkviolet;*/
+}
+
+/*Caixa do áudio*/
+.track_Audio {
+    width: 100%;
+}
+
+/*div que contém o áudio individualmente*/
+.Audio {
+    display: flex;
+    align-items: center;
+    width: 75%;
+}
+
+/*Estilização do álbum Alívio Imediato*/
+#ht_alivio {
+    background-image: url("Albuns/Alivio_Imediato/AlivioImediato.jpg");
+    background-size: cover;
+}
+
+/*Titulo da página inicial*/
+#titulo_Index {
+    display: flex;
+    justify-items: baseline;
+    padding-left: 7vw;
+    font-size: 3vw;
+}
+
+/*Estilização da barra de navegação em todas as páginas*/
 nav {
     display: flex;
-    background-color: cornflowerblue;
+    background-color: deepskyblue;
     align-items: center;
-    height: 10vh;
+    justify-content: space-between;
+    height: 15vh;
 }
 
-#br_Navegacao {
+/*Itens da lista na barra de navegação do inicio*/
+.it_nav_index {
+    margin: 1vw;
+    font-size: 25pt;
+    /*background-color: cadetblue;
+    border-radius: 15px;*/
+}
+
+.it_nav_albuns {
+    margin: 1vw;
+    font-size: 25pt;
+}
+
+/*Estilização da lista na barra de navegação do inicio*/
+#ls_nav_index {
     display: flex;
     list-style: none;
+    padding-right: 6vw;
+    /*background-color: blueviolet;*/
+    color: darkblue;
 }
 
-.it_Navegacao {
-    background-color: cadetblue;
-    border-radius: 15px;
-    padding: 8px;
+/*Estilização da lista na barra de navegação dos albuns*/
+.ls_nav_albuns {
+    display: flex;
+    list-style: none;
+    padding-right: 3vw;
+}
 
-    margin: 10px;
-    margin-right: 20px;
+/*Item de login na lista da barra de navegação do início*/
+#ls_nav_index a {
+    display: flex;
+    text-decoration: none;
+    color: darkblue;
+}
+
+/*Item de login na lista da barra de navegação dos álbuns*/
+.ls_nav_albuns a {
+    display: flex;
+    text-decoration: none;
+    color: darkblue;
+}
+
+/*Efeitos da barra de navegação*/
+/*nav:hover {
+    background-color: deepskyblue; 
+    height: 30vh;
+    transition: 3s;
+}*/
+
+/*Mudar cor dos links das páginas*/
+a:hover {
+    color: lightskyblue;
+}
+
+/*Mudar a cor dos links da barra de navegação da página inicial*/
+#ls_nav_index a:hover {
+    color: lightskyblue;
 }
