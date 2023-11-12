@@ -14,36 +14,42 @@
 #ht_revolta {
     background-image: url(Albuns/A_Revolta_dos_Dandis/ARevoltaDosDandis.jpeg);
     background-size: cover;
+    backdrop-filter: blur(10px);
 }
 
 /*Estilização do álbum Alívio Imediato*/
 #ht_alivio {
     background-image: url("Albuns/Alivio_Imediato/AlivioImediato.jpg");
     background-size: cover;
+    backdrop-filter: blur(10px);
 }
 
 /*Estilização do álbum Dançando no Campo Minado*/
 #ht_dancando {
     background-image: url("Albuns/Dancando_no_Campo_Minado/DancandoNoCampoMinado.jpg");
     background-size: cover;
+    backdrop-filter: blur(10px);
 }
 
 /*Estilização do álbum Longe Demais das Capitais*/
 #ht_longe {
     background-image: url("Albuns/Longe_Demais_das_Capitais/LongeDemaisDasCapitais.jpg");
     background-size: cover;
+    backdrop-filter: blur(10px);
 }
 
 /*Estilização do álbum Minuano*/
 #ht_minuano {
     background-image: url("Albuns/Minuano/Minuano.jpeg");
     background-size: cover;
+    backdrop-filter: blur(10px);
 }
 
 /*Estilização do álbum Simples de Coração*/
 #ht_simples {
     background-image: url("Albuns/Simples_de_Coracao/SimplesDeCoracao.jpeg");
     background-size: cover;
+    backdrop-filter: blur(10px);
 }
 
 /*Estilização da pagina de login*/
