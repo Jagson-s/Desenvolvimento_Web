@@ -12,13 +12,20 @@
 
 /*Estilização do álbum A Revolta dos Dândis*/
 #ht_revolta {
-    background-image: url(Albuns/A_Revolta_dos_Dandis/ARevoltaDosDandis.jpeg);
-    background-size: cover;
+    /*background-image: url(Albuns/A_Revolta_dos_Dandis/ARevoltaDosDandis.jpeg);
+    background-size: cover;*/
+    background-color: yellow;
 }
 
 /*Estilização do álbum Alívio Imediato*/
 #ht_alivio {
     background-image: url("Albuns/Alivio_Imediato/AlivioImediato.jpg");
+    background-size: cover;
+}
+
+/*Estilização do álbum Dançando no Campo Minado*/
+#ht_dancando {
+    background-image: url("Albuns/Dancando_no_Campo_Minado/DancandoNoCampoMinado.jpg");
     background-size: cover;
 }
 
