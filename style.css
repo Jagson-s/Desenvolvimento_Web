@@ -61,7 +61,7 @@
 
 /*Titulo individual de cada pagina de album*/
 .titulo_Album { 
-    font-size: 30pt;
+    font-size: 3vw;
     color: darkblue;
     padding-left: 1vw;
 }
@@ -128,14 +128,14 @@ nav {
 /*Itens da lista na barra de navegação do inicio*/
 .it_nav_index {
     margin: 1vw;
-    font-size: 25pt;
+    font-size: 2vw;
     /*background-color: cadetblue;
     border-radius: 15px;*/
 }
 
 .it_nav_albuns {
     margin: 1vw;
-    font-size: 25pt;
+    font-size: 2vw;
 }
 
 /*Estilização da lista na barra de navegação do inicio*/
