@@ -46,9 +46,53 @@
 
 }
 
+
 /*Telas com no máximo 375px*/
 @media screen and (min-width: 281px) and (max-width: 375px){
-    
+    /*Titulo da página inicial*/
+    #titulo_Index {
+        display: flex;
+        padding: 0; /* -------------------- removendo o padding*/
+        font-size: 6vw; /* ---------------- alterando o tamanho da fonte*/
+        width: 90%; /* -------------------- ocupando 90% da largura da div pai*/
+        justify-content: center; /* ------- alinhando o texto no centro*/
+    }
+
+
+    /*Estilização da barra de navegação em todas as páginas*/
+    nav {
+        display: flex;
+        flex-direction: column-reverse; /*- invertendo a posição dos itens*/
+        justify-content: center; /*-------- deixando os itens no centro*/
+        height: 10vh; /* ------------------ alterando a altura da barra de navegação*/
+        background-color: burlywood;
+    }
+
+    /*Estilização da lista na barra de navegação do inicio*/
+    #ls_nav_index {
+        padding: 0; /* -------------------- removendo o padding*/
+        width: 82%; /* -------------------- ocupando 82% da largura da div pai*/
+        justify-content: space-between; /*- deixando os itens espaçados*/
+    }
+
+    /*Itens da lista na barra de navegação do inicio*/
+    .it_nav_index {
+        font-size: 4vw; /*----------------- alterando o tamanho da fonte*/
+    }
+
+    /*Titulo dos albuns na página inicial*/
+    .txt_Album { 
+        color: dodgerblue;
+        text-decoration: none;
+        font-size: 15pt;
+    }
+
+    /*Imagens dos albuns na pagina inicial*/
+    .img_Album { 
+        width: 250px; /* ------------------ alterando a largura da imagem */
+        height: 250px; /* ----------------- alterando a altura da imagem*/
+        border-radius: 75px; /* ----------- alterando a curva da borda da imagem*/
+    }
 }
 
 /*Telas com no máximo 768px*/
