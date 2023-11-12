@@ -1,20 +1,35 @@
+/*Telas com no máximo 280px de largura*/
+@media screen and (max-width: 280px) {
+/*Titulo da página inicial*/
+#titulo_Index {
+    display: flex;
+    justify-items: baseline;
+    padding-left: 7vw;
+    font-size: 7vw;
+}
+}
 
-@media screen and (min-width: 280px) and (max-width: 480px) {
+/*Telas com no máximo 375px*/
+@media screen and (min-width: 281px) and (max-width: 375px){
     
 }
 
-@media screen and (min-width: 481px) and (max-width: 768px){
+/*Telas com no máximo 768px*/
+@media screen and (min-width: 376px) and (max-width: 768px){
     
 }
 
+/*Telas com no máximo 1024px*/
 @media screen and (min-width: 769px) and (max-width: 1024px){
     
 }
 
-@media screen and (min-width: 1025px) and (max-width: 1200px){
+/*Telas com no máximo 1440px*/
+@media screen and (min-width: 1025px) and (min-width: 1440px){
     
 }
 
-@media screen and (min-width: 1201px){
-    
+/*Telas acima de 1441px*/
+@media screen and (min-width: 1441px) {
+
 }
