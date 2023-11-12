@@ -66,6 +66,13 @@
     backdrop-filter: blur(10px);
 }
 
+/*Estilazação do álbum Várias Variáveis*/
+#ht_varias {
+    background-image: url(Albuns/Varias_Variaveis/VariasVariaveis.jpeg);
+    background-size: cover;
+    backdrop-filter: blur(10px);
+}
+
 /*Estilização da pagina de login*/
 /*#Login { 
     color: cadetblue;
