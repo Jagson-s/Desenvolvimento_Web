@@ -34,6 +34,12 @@
     background-size: cover;
 }
 
+/*Estilização do álbum Minuano*/
+#ht_minuano {
+    background-image: url("Albuns/Minuano/Minuano.jpeg");
+    background-size: cover;
+}
+
 /*Estilização da pagina de login*/
 /*#Login { 
     color: cadetblue;
