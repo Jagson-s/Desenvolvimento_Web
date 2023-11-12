@@ -10,6 +10,18 @@
     color: darkblue;
 }
 
+/*Estilização do álbum A Revolta dos Dândis*/
+#ht_revolta {
+    background-image: url(Albuns/A_Revolta_dos_Dandis/ARevoltaDosDandis.jpeg);
+    background-size: cover;
+}
+
+/*Estilização do álbum Alívio Imediato*/
+#ht_alivio {
+    background-image: url("Albuns/Alivio_Imediato/AlivioImediato.jpg");
+    background-size: cover;
+}
+
 /*Estilização da pagina de login*/
 /*#Login { 
     color: cadetblue;
@@ -94,12 +106,6 @@
     display: flex;
     align-items: center;
     width: 75%;
-}
-
-/*Estilização do álbum Alívio Imediato*/
-#ht_alivio {
-    background-image: url("Albuns/Alivio_Imediato/AlivioImediato.jpg");
-    background-size: cover;
 }
 
 /*Titulo da página inicial*/
