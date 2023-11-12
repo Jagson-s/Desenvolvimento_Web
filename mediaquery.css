@@ -65,13 +65,12 @@
         flex-direction: column-reverse; /*- invertendo a posição dos itens*/
         justify-content: center; /*-------- deixando os itens no centro*/
         height: 10vh; /* ------------------ alterando a altura da barra de navegação*/
-        background-color: burlywood;
     }
 
     /*Estilização da lista na barra de navegação do inicio*/
     #ls_nav_index {
         padding: 0; /* -------------------- removendo o padding*/
-        width: 82%; /* -------------------- ocupando 82% da largura da div pai*/
+        width: 87%; /* -------------------- ocupando 87% da largura da div pai*/
         justify-content: space-between; /*- deixando os itens espaçados*/
     }
 
@@ -95,9 +94,56 @@
     }
 }
 
+
 /*Telas com no máximo 768px*/
 @media screen and (min-width: 376px) and (max-width: 768px){
+    /*Titulo da página inicial*/
+    #titulo_Index {
+        display: flex;
+        padding: 0;
+        font-size: 5vw; /* -------------- alterando o tamanho da fonte*/
+        width: 90%; /* -------------------- ocupando 90% da largura da div pai*/
+        background-color: cadetblue;
+    }
+
+
+    /*Estilização da barra de navegação em todas as páginas*/
+    nav {
+        display: flex;
+        flex-direction: column-reverse; /*- invertendo a posição dos itens*/
+        height: 13vh; /* ------------------- alterando a altura da barra de navegação*/
+        background-color: bisque;
+    }
+
+    /*Estilização da lista na barra de navegação do inicio*/
+    #ls_nav_index {
+         /* -------------------- removendo o padding*/
+        width: 84%; /* -------------------- ocupando 90% da largura da div pai*/
+        justify-content: right; /*- deixando os itens espaçados*/
+        background-color: blueviolet;
+        text-align: end;
+    }
+
+    /*Itens da lista na barra de navegação do inicio*/
+    .it_nav_index {
+        font-size: 2.5vw; /*----------------- alterando o tamanho da fonte*/
+        padding: 0;
+    }
+
     
+    /*Titulo dos albuns na página inicial*/
+    .txt_Album { 
+        color: dodgerblue;
+        text-decoration: none;
+        font-size: 15pt;
+    }
+
+    /*Imagens dos albuns na pagina inicial*/
+    /*.img_Album { 
+    /*    width: 200px; /* ------------------ alterando a largura da imagem */
+    /*    height: 200px; /* ----------------- alterando a altura da imagem*/
+    /*    border-radius: 70px; /* ----------- alterando a curva da borda da imagem*/
+    /*}*/
 }
 
 /*Telas com no máximo 1024px*/
