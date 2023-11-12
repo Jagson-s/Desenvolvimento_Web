@@ -22,12 +22,26 @@
     #ls_nav_index {
         padding: 0; /* -------------------- removendo o padding*/
         width: 82%; /* -------------------- ocupando 82% da largura da div pai*/
-        justify-content: right; /* -------- deixando os itens à direita*/
+        justify-content: space-between; /*- deixando os itens espaçados*/
     }
 
     /*Itens da lista na barra de navegação do inicio*/
     .it_nav_index {
         font-size: 4vw; /*----------------- alterando o tamanho da fonte*/
+    }
+
+    /*Titulo dos albuns na página inicial*/
+    .txt_Album { 
+        color: dodgerblue;
+        text-decoration: none;
+        font-size: 15pt;
+    }
+
+    /*Imagens dos albuns na pagina inicial*/
+    .img_Album { 
+        width: 200px; /* ------------------ alterando a largura da imagem */
+        height: 200px; /* ----------------- alterando a altura da imagem*/
+        border-radius: 70px; /* ----------- alterando a curva da borda da imagem*/
     }
 
 }
