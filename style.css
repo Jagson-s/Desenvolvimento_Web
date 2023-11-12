@@ -28,6 +28,12 @@
     background-size: cover;
 }
 
+/*Estilização do álbum Longe Demais das Capitais*/
+#ht_longe {
+    background-image: url("Albuns/Longe_Demais_das_Capitais/LongeDemaisDasCapitais.jpg");
+    background-size: cover;
+}
+
 /*Estilização da pagina de login*/
 /*#Login { 
     color: cadetblue;
