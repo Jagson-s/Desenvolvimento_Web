@@ -59,6 +59,13 @@
     backdrop-filter: blur(10px);
 }
 
+/*Estilização do álbum Tchau Radar*/
+#ht_tchau {
+    background-image: url(Albuns/Tchau_Radar/TchauRadar.jpg);
+    background-size: cover;
+    backdrop-filter: blur(10px);
+}
+
 /*Estilização da pagina de login*/
 /*#Login { 
     color: cadetblue;
