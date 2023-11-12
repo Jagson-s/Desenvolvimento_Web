@@ -12,9 +12,8 @@
 
 /*Estilização do álbum A Revolta dos Dândis*/
 #ht_revolta {
-    /*background-image: url(Albuns/A_Revolta_dos_Dandis/ARevoltaDosDandis.jpeg);
-    background-size: cover;*/
-    background-color: yellow;
+    background-image: url(Albuns/A_Revolta_dos_Dandis/ARevoltaDosDandis.jpeg);
+    background-size: cover;
 }
 
 /*Estilização do álbum Alívio Imediato*/
