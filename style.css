@@ -40,6 +40,12 @@
     background-size: cover;
 }
 
+/*Estilização do álbum Simples de Coração*/
+#ht_simples {
+    background-image: url("Albuns/Simples_de_Coracao/SimplesDeCoracao.jpeg");
+    background-size: cover;
+}
+
 /*Estilização da pagina de login*/
 /*#Login { 
     color: cadetblue;
