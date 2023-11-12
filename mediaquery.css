@@ -1,7 +1,10 @@
 
+@media screen and (min-width: 280px) and (max-width: 480px) {
+    
+}
+
 @media screen and (min-width: 481px) and (max-width: 768px){
-    /*display: flex;
-    display: none;*/
+    
 }
 
 @media screen and (min-width: 769px) and (max-width: 1024px){
