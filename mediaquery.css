@@ -1,12 +1,35 @@
 /*Telas com no máximo 280px de largura*/
 @media screen and (max-width: 280px) {
-/*Titulo da página inicial*/
-#titulo_Index {
-    display: flex;
-    justify-items: baseline;
-    padding-left: 7vw;
-    font-size: 7vw;
-}
+    /*Titulo da página inicial*/
+    #titulo_Index {
+        display: flex;
+        padding: 0; /* -------------------- removendo o padding*/
+        font-size: 5.5vw; /* -------------- alterando o tamanho da fonte*/
+        width: 90%; /* -------------------- ocupando 90% da largura da div pai*/
+        justify-content: center; /* ------- alinhando o texto no centro*/
+    }
+
+
+    /*Estilização da barra de navegação em todas as páginas*/
+    nav {
+        display: flex;
+        flex-direction: column-reverse; /*- invertendo a posição dos itens*/
+        justify-content: space-evenly;  /*- deixando os itens com espaçamento igual*/
+        height: 8vh; /* ------------------- alterando a altura da barra de navegação*/
+    }
+
+    /*Estilização da lista na barra de navegação do inicio*/
+    #ls_nav_index {
+        padding: 0; /* -------------------- removendo o padding*/
+        width: 82%; /* -------------------- ocupando 82% da largura da div pai*/
+        justify-content: right; /* -------- deixando os itens à direita*/
+    }
+
+    /*Itens da lista na barra de navegação do inicio*/
+    .it_nav_index {
+        font-size: 4vw; /*----------------- alterando o tamanho da fonte*/
+    }
+
 }
 
 /*Telas com no máximo 375px*/
