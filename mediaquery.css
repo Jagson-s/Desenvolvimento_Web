@@ -41,7 +41,7 @@
     .img_Album { 
         width: 200px; /* ------------------ alterando a largura da imagem */
         height: 200px; /* ----------------- alterando a altura da imagem*/
-        border-radius: 70px; /* ----------- alterando a curva da borda da imagem*/
+        border-radius: 65px; /* ----------- alterando a curva da borda da imagem*/
     }
 
 }
@@ -90,7 +90,7 @@
     .img_Album { 
         width: 250px; /* ------------------ alterando a largura da imagem */
         height: 250px; /* ----------------- alterando a altura da imagem*/
-        border-radius: 75px; /* ----------- alterando a curva da borda da imagem*/
+        border-radius: 80px; /* ----------- alterando a curva da borda da imagem*/
     }
 }
 
@@ -140,7 +140,7 @@
     .img_Album { 
         width: 275px; /* ------------------ alterando a largura da imagem */
         height: 275px; /* ----------------- alterando a altura da imagem*/
-        border-radius: 85px; /* ----------- alterando a curva da borda da imagem*/
+        border-radius: 90px; /* ----------- alterando a curva da borda da imagem*/
     }
 }
 
