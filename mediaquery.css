@@ -44,6 +44,20 @@
         border-radius: 65px; /* ----------- alterando a curva da borda da imagem*/
     }
 
+    /*Estilização da lista na barra de navegação dos albuns*/
+    .ls_nav_albuns {
+        display: flex;
+        list-style: none;
+        padding-right: 0;
+        background-color: brown;
+    }
+
+    /*Itens da lista na barra de navegação dos albuns*/
+    .it_nav_albuns {
+        margin: 1vw;
+        font-size: 2vw;
+    }
+
 }
 
 
