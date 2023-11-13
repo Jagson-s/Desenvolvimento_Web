@@ -144,17 +144,7 @@
     }
 }
 
-/*Telas com no máximo 1024px*/
-@media screen and (min-width: 768px) and (max-width: 1024px){
+/*Telas com acima de 1024px*/
+@media screen and (min-width: 768px) {
     
-}
-
-/*Telas com no máximo 1440px*/
-@media screen and (min-width: 1024px) and (min-width: 1440px){
-    
-}
-
-/*Telas acima de 1441px*/
-@media screen and (min-width: 1440px) {
-
 }
