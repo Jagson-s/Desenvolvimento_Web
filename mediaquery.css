@@ -96,38 +96,36 @@
 
 
 /*Telas com no máximo 768px*/
-@media screen and (min-width: 376px) and (max-width: 768px){
+@media screen and (min-width: 375px) and (max-width: 768px){
     /*Titulo da página inicial*/
     #titulo_Index {
         display: flex;
-        padding: 0;
-        font-size: 5vw; /* -------------- alterando o tamanho da fonte*/
-        width: 90%; /* -------------------- ocupando 90% da largura da div pai*/
-        background-color: cadetblue;
+        font-size: 18pt; /* -------------- alterando o tamanho da fonte*/
+        padding-left: 6vw;
+        position: relative;
+        bottom: 1vh;
     }
-
 
     /*Estilização da barra de navegação em todas as páginas*/
     nav {
         display: flex;
         flex-direction: column-reverse; /*- invertendo a posição dos itens*/
         height: 13vh; /* ------------------- alterando a altura da barra de navegação*/
-        background-color: bisque;
+        justify-content: space-evenly; /* -------- deixand os itens centralizados*/
+        align-items: start;
     }
 
     /*Estilização da lista na barra de navegação do inicio*/
     #ls_nav_index {
          /* -------------------- removendo o padding*/
-        width: 84%; /* -------------------- ocupando 90% da largura da div pai*/
+        width: 100%; /* -------------------- ocupando 90% da largura da div pai*/
         justify-content: right; /*- deixando os itens espaçados*/
-        background-color: blueviolet;
-        text-align: end;
     }
 
     /*Itens da lista na barra de navegação do inicio*/
     .it_nav_index {
-        font-size: 2.5vw; /*----------------- alterando o tamanho da fonte*/
-        padding: 0;
+        font-size: 12pt; /*----------------- alterando o tamanho da fonte*/
+        padding-right: 4vw;
     }
 
     
@@ -139,24 +137,24 @@
     }
 
     /*Imagens dos albuns na pagina inicial*/
-    /*.img_Album { 
-    /*    width: 200px; /* ------------------ alterando a largura da imagem */
-    /*    height: 200px; /* ----------------- alterando a altura da imagem*/
-    /*    border-radius: 70px; /* ----------- alterando a curva da borda da imagem*/
-    /*}*/
+    .img_Album { 
+        width: 275px; /* ------------------ alterando a largura da imagem */
+        height: 275px; /* ----------------- alterando a altura da imagem*/
+        border-radius: 85px; /* ----------- alterando a curva da borda da imagem*/
+    }
 }
 
 /*Telas com no máximo 1024px*/
-@media screen and (min-width: 769px) and (max-width: 1024px){
+@media screen and (min-width: 768px) and (max-width: 1024px){
     
 }
 
 /*Telas com no máximo 1440px*/
-@media screen and (min-width: 1025px) and (min-width: 1440px){
+@media screen and (min-width: 1024px) and (min-width: 1440px){
     
 }
 
 /*Telas acima de 1441px*/
-@media screen and (min-width: 1441px) {
+@media screen and (min-width: 1440px) {
 
 }
