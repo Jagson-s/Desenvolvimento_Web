@@ -42,7 +42,6 @@
 
     /*Estilização da lista na barra de navegação dos albuns*/
     .ls_nav_albuns {
-        display: flex;
         padding-right: 0;
     }
 
@@ -57,6 +56,23 @@
         padding: 0;
     }
 
+    /*Cada musica individual*/
+    .Musica {
+        flex-direction: column;
+    }
+
+    
+    /*Titulo de cada musica*/
+    .titulo_Musica {
+        width: unset;
+        font-size: 4vw;
+        margin-bottom: 3px;
+    }
+
+    /*div que contém o áudio individualmente*/
+    .Audio {
+        width: 100%;
+    }
 }
 
 
@@ -64,7 +80,6 @@
 @media screen and (min-width: 281px) and (max-width: 375px){
     /*Titulo da página inicial*/
     #titulo_Index {
-        display: flex;
         padding: 0; /* -------------------- removendo o padding*/
         font-size: 6vw; /* ---------------- alterando o tamanho da fonte*/
         width: 90%; /* -------------------- ocupando 90% da largura da div pai*/
@@ -74,7 +89,6 @@
 
     /*Estilização da barra de navegação em todas as páginas*/
     nav {
-        display: flex;
         flex-direction: column-reverse; /*- invertendo a posição dos itens*/
         justify-content: center; /*-------- deixando os itens no centro*/
         height: 10vh; /* ------------------ alterando a altura da barra de navegação*/
@@ -94,8 +108,6 @@
 
     /*Titulo dos albuns na página inicial*/
     .txt_Album { 
-        color: dodgerblue;
-        text-decoration: none;
         font-size: 15pt;
     }
 
@@ -112,7 +124,6 @@
 @media screen and (min-width: 375px) and (max-width: 768px){
     /*Titulo da página inicial*/
     #titulo_Index {
-        display: flex;
         font-size: 18pt; /* -------------- alterando o tamanho da fonte*/
         padding-left: 6vw;
         position: relative;
@@ -121,7 +132,6 @@
 
     /*Estilização da barra de navegação em todas as páginas*/
     nav {
-        display: flex;
         flex-direction: column-reverse; /*- invertendo a posição dos itens*/
         height: 13vh; /* ------------------- alterando a altura da barra de navegação*/
         justify-content: space-evenly; /* -------- deixand os itens centralizados*/
@@ -144,8 +154,6 @@
     
     /*Titulo dos albuns na página inicial*/
     .txt_Album { 
-        color: dodgerblue;
-        text-decoration: none;
         font-size: 15pt;
     }
 
