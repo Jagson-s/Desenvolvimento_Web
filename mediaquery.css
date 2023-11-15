@@ -197,6 +197,44 @@
         height: 275px; /* ----------------- alterando a altura da imagem*/
         border-radius: 90px; /* ----------- alterando a curva da borda da imagem*/
     }
+
+    /*Estilização da lista na barra de navegação dos albuns*/
+    .ls_nav_albuns {
+        padding: unset;
+        background-color: azure;
+        justify-content: right;
+        width: 100%;
+    }
+
+    /*Itens da lista na barra de navegação dos albuns*/
+    .it_nav_albuns {
+        font-size: 15px;
+    }
+
+    /*Titulo individual de cada pagina de album*/
+    .titulo_Album { 
+        font-size: 18.5px;
+        padding-left: 2vw;
+    }
+
+    /*Cada musica individual*/
+    .Musica {
+        flex-direction: column;
+        align-items: start;
+    }
+
+    
+    /*Titulo de cada musica*/
+    .titulo_Musica {
+        width: unset;
+        font-size: 15px;
+        margin-bottom: 3px;
+    }
+
+    /*div que contém o áudio individualmente*/
+    .Audio {
+        width: 100%;
+    }
 }
 
 /*Telas com acima de 1024px*/
