@@ -236,6 +236,19 @@
     .Audio {
         width: 100%;
     }
+
+    /*Cada album individual na pagina inicial*/
+    .Album { 
+        display: flex;
+        flex-direction: column;
+        padding: none;
+    }
+
+    /*Coleção de todos os albuns na pagina inicial*/
+    .Albuns { 
+        display: flex;
+        flex-wrap: none;
+    }
 }
 
 /*Telas com acima de 1024px*/
