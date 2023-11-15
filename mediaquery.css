@@ -174,7 +174,6 @@
 
     /*Estilização da lista na barra de navegação do inicio*/
     #ls_nav_index {
-         /* -------------------- removendo o padding*/
         width: 100%; /* -------------------- ocupando 90% da largura da div pai*/
         justify-content: right; /*- deixando os itens espaçados*/
     }
@@ -201,20 +200,22 @@
     /*Estilização da lista na barra de navegação dos albuns*/
     .ls_nav_albuns {
         padding: unset;
-        background-color: azure;
         justify-content: right;
         width: 100%;
     }
 
     /*Itens da lista na barra de navegação dos albuns*/
     .it_nav_albuns {
-        font-size: 15px;
+        font-size: 12pt;
+        padding-right: 4vw;
     }
 
     /*Titulo individual de cada pagina de album*/
     .titulo_Album { 
         font-size: 18.5px;
         padding-left: 2vw;
+        position: relative;
+        bottom: 1vh
     }
 
     /*Cada musica individual*/
