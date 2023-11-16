@@ -164,10 +164,11 @@
 
     /*Titulo da página inicial*/
     #titulo_Index {
-        font-size: 18pt; /* -------------- alterando o tamanho da fonte*/
-        padding-left: 6vw;
+        font-size: 20pt; /* -------------- alterando o tamanho da fonte*/
+        padding: 0;
         position: relative;
         bottom: 1vh;
+        background-color: beige;
     }
 
     /*Estilização da barra de navegação em todas as páginas*/
@@ -175,21 +176,19 @@
         flex-direction: column-reverse; /*- invertendo a posição dos itens*/
         height: 13vh; /* ------------------- alterando a altura da barra de navegação*/
         justify-content: space-evenly; /* -------- deixand os itens centralizados*/
-        align-items: start;
-        width: 100vw;
-        padding: 0;
     }
 
     /*Estilização da lista na barra de navegação do inicio*/
     #ls_nav_index {
-        width: 94%; /* -------------------- ocupando 90% da largura da div pai*/
+         /* -------------------- ocupando 90% da largura da div pai*/
+        padding: 0;
         justify-content: right; /*- deixando os itens espaçados*/
+        background-color: brown;
     }
 
     /*Itens da lista na barra de navegação do inicio*/
     .it_nav_index {
         font-size: 12pt; /*----------------- alterando o tamanho da fonte*/
-        padding-right: 4vw;
     }
 
     
