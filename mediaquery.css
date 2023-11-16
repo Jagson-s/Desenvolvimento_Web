@@ -168,7 +168,6 @@
         padding: 0;
         position: relative;
         bottom: 1vh;
-        background-color: beige;
     }
 
     /*Estilização da barra de navegação em todas as páginas*/
@@ -183,7 +182,6 @@
          /* -------------------- ocupando 90% da largura da div pai*/
         padding: 0;
         justify-content: right; /*- deixando os itens espaçados*/
-        background-color: brown;
     }
 
     /*Itens da lista na barra de navegação do inicio*/
