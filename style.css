@@ -96,7 +96,7 @@
 .Album { 
     display: flex;
     flex-direction: column;
-    flex: 0 0 calc(30% - 30px);
+    /* flex: 0 0 calc(30% - 30px); */
     align-items: center;
     padding: 10px;
     margin: 10px auto;
@@ -106,7 +106,7 @@
 .Albuns { 
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 /*Titulo individual de cada pagina de album*/

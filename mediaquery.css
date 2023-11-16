@@ -159,7 +159,6 @@
 @media screen and (min-width: 375px) and (max-width: 768px){
 
 #Index {
-    background-color: aqua;
     width: 100vw;
 }
 
@@ -201,8 +200,8 @@
 
     /*Imagens dos albuns na pagina inicial*/
     .img_Album { 
-        width: 150px; /* ------------------ alterando a largura da imagem */
-        height: 150px; /* ----------------- alterando a altura da imagem*/
+        width: 170px; /* ------------------ alterando a largura da imagem */
+        height: 170px; /* ----------------- alterando a altura da imagem*/
         border-radius: 47px; /* ----------- alterando a curva da borda da imagem*/
     }
 
@@ -248,16 +247,7 @@
 
     /*Cada album individual na pagina inicial*/
     .Album { 
-        display: flex;
-        flex-direction: column;
-        padding: none;
-    }
-
-    /*Coleção de todos os albuns na pagina inicial*/
-    .Albuns { 
-        display: flex;
-        flex-wrap: none;
-        background-color: bisque;
+        padding-inline: 0;
     }
 }
 
