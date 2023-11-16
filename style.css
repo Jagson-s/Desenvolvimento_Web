@@ -97,24 +97,16 @@
     display: flex;
     flex-direction: column;
     flex: 0 0 calc(20% - 10px);
+    margin: 10px auto;
     padding: 10px;
     text-align: center;
-    margin-left: 1vw;
-}
-
-.card {
-    display: flex;
-    padding: 10px;
-    flex-grow: 1;
-    align-items: start;
-    flex-direction: column;
 }
 
 /*Coleção de todos os albuns na pagina inicial*/
 .Albuns { 
     display: flex;
     flex-flow: row wrap;
-    justify-content: center;
+    justify-content: space-evenly;
 }
 
 /*Titulo individual de cada pagina de album*/
