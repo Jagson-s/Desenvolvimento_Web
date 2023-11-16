@@ -96,17 +96,25 @@
 .Album { 
     display: flex;
     flex-direction: column;
-    flex: 0 0 calc(30% - 30px);
-    align-items: center;
+    flex: 0 0 calc(20% - 10px);
     padding: 10px;
-    margin: 10px auto;
+    text-align: center;
+    margin-left: 1vw;
+}
+
+.card {
+    display: flex;
+    padding: 10px;
+    flex-grow: 1;
+    align-items: start;
+    flex-direction: column;
 }
 
 /*Coleção de todos os albuns na pagina inicial*/
 .Albuns { 
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
+    flex-flow: row wrap;
+    justify-content: center;
 }
 
 /*Titulo individual de cada pagina de album*/
