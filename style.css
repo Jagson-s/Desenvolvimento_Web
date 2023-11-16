@@ -135,13 +135,11 @@
     justify-content: center;
     color: darkblue;
     width: 25%;
-    /*background-color: cadetblue;*/
 }
 
 /*Coleção de todas as musicas*/
 .Colecao { 
     margin: 0;
-    /*background-color: darkviolet;*/
 }
 
 /*Caixa do áudio*/
@@ -176,10 +174,7 @@ nav {
 /*Itens da lista na barra de navegação do inicio*/
 .it_nav_index {
     margin: 1vw;
-    font-size: 2vw;
-    /*background-color: cadetblue;
-    border-radius: 15px;*/
-}
+    font-size: 2vw;}
 
 /*Itens da lista na barra de navegação dos albuns*/
 .it_nav_albuns { 
@@ -192,7 +187,6 @@ nav {
     display: flex;
     list-style: none;
     padding-right: 6vw;
-    /*background-color: blueviolet;*/
     color: darkblue;
 }
 
