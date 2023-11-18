@@ -13,6 +13,7 @@
 #ht_revolta {
     background-image: url(Albuns/A_Revolta_dos_Dandis/ARevoltaDosDandis.jpeg);
     background-size: cover;
+    background-position: center;
     backdrop-filter: blur(10px);
 }
 
@@ -20,6 +21,7 @@
 #ht_alivio {
     background-image: url("Albuns/Alivio_Imediato/AlivioImediato.jpg");
     background-size: cover;
+    background-position: center;
     backdrop-filter: blur(10px);
 }
 
@@ -27,6 +29,7 @@
 #ht_dancando {
     background-image: url("Albuns/Dancando_no_Campo_Minado/DancandoNoCampoMinado.jpg");
     background-size: cover;
+    background-position: center;
     backdrop-filter: blur(10px);
 }
 
@@ -34,6 +37,7 @@
 #ht_longe {
     background-image: url("Albuns/Longe_Demais_das_Capitais/LongeDemaisDasCapitais.jpg");
     background-size: cover;
+    background-position: center;
     backdrop-filter: blur(10px);
 }
 
@@ -41,6 +45,7 @@
 #ht_minuano {
     background-image: url("Albuns/Minuano/Minuano.jpeg");
     background-size: cover;
+    background-position: center;
     backdrop-filter: blur(10px);
 }
 
@@ -48,6 +53,7 @@
 #ht_simples {
     background-image: url("Albuns/Simples_de_Coracao/SimplesDeCoracao.jpeg");
     background-size: cover;
+    background-position: center;
     backdrop-filter: blur(10px);
 }
 
@@ -55,6 +61,7 @@
 #ht_surfando {
     background-image: url("Albuns/Surfando_KarmasEtDNA/SurfandoKarmasEtDNA.jpg");
     background-size: cover;
+    background-position: center;
     backdrop-filter: blur(10px);
 }
 
@@ -62,6 +69,7 @@
 #ht_tchau {
     background-image: url(Albuns/Tchau_Radar/TchauRadar.jpg);
     background-size: cover;
+    background-position: center;
     backdrop-filter: blur(10px);
 }
 
@@ -69,6 +77,7 @@
 #ht_varias {
     background-image: url(Albuns/Varias_Variaveis/VariasVariaveis.jpeg);
     background-size: cover;
+    background-position: center;
     backdrop-filter: blur(10px);
 }
 
