@@ -158,9 +158,9 @@
 /*Telas com no máximo 768px*/
 @media screen and (min-width: 375px) and (max-width: 768px){
 
-#Index {
-    width: 100vw;
-}
+    #Index {
+        width: 100vw;
+    }
 
     /*Titulo da página inicial*/
     #titulo_Index {
@@ -204,8 +204,8 @@
 
     /*Estilização da lista na barra de navegação dos albuns*/
     .ls_nav_albuns {
-        padding: unset;
-        justify-content: right;
+        padding: 0;
+        justify-content: center;
         width: 100%;
     }
 
