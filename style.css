@@ -1,0 +1,259 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*Estilização da pagina inicial*/
+#Index { 
+    background-color: black;
+    color: darkblue;
+}
+
+/*Estilização do álbum A Revolta dos Dândis*/
+#ht_revolta {
+    background-image: url(Albuns/A_Revolta_dos_Dandis/ARevoltaDosDandis.jpeg);
+    background-size: cover;
+    background-position: center;
+    backdrop-filter: blur(10px);
+}
+
+/*Estilização do álbum Alívio Imediato*/
+#ht_alivio {
+    background-image: url("Albuns/Alivio_Imediato/AlivioImediato.jpg");
+    background-size: cover;
+    background-position: center;
+    backdrop-filter: blur(10px);
+}
+
+/*Estilização do álbum Dançando no Campo Minado*/
+#ht_dancando {
+    background-image: url("Albuns/Dancando_no_Campo_Minado/DancandoNoCampoMinado.jpg");
+    background-size: cover;
+    background-position: center;
+    backdrop-filter: blur(10px);
+}
+
+/*Estilização do álbum Longe Demais das Capitais*/
+#ht_longe {
+    background-image: url("Albuns/Longe_Demais_das_Capitais/LongeDemaisDasCapitais.jpg");
+    background-size: cover;
+    background-position: center;
+    backdrop-filter: blur(10px);
+}
+
+/*Estilização do álbum Minuano*/
+#ht_minuano {
+    background-image: url("Albuns/Minuano/Minuano.jpeg");
+    background-size: cover;
+    background-position: center;
+    backdrop-filter: blur(10px);
+}
+
+/*Estilização do álbum Simples de Coração*/
+#ht_simples {
+    background-image: url("Albuns/Simples_de_Coracao/SimplesDeCoracao.jpeg");
+    background-size: cover;
+    background-position: center;
+    backdrop-filter: blur(10px);
+}
+
+/*Estilização do álbum Simples de Coração*/
+#ht_surfando {
+    background-image: url("Albuns/Surfando_KarmasEtDNA/SurfandoKarmasEtDNA.jpg");
+    background-size: cover;
+    background-position: center;
+    backdrop-filter: blur(10px);
+}
+
+/*Estilização do álbum Tchau Radar*/
+#ht_tchau {
+    background-image: url(Albuns/Tchau_Radar/TchauRadar.jpg);
+    background-size: cover;
+    background-position: center;
+    backdrop-filter: blur(10px);
+}
+
+/*Estilazação do álbum Várias Variáveis*/
+#ht_varias {
+    background-image: url(Albuns/Varias_Variaveis/VariasVariaveis.jpeg);
+    background-size: cover;
+    background-position: center;
+    backdrop-filter: blur(10px);
+}
+
+/*Estilização da pagina de login*/
+/*#Login { 
+    color: cadetblue;
+    text-decoration: none;
+}*/
+
+/*Titulo dos albuns na página inicial*/
+.txt_Album { 
+    color: dodgerblue;
+    text-decoration: none;
+    font-size: 20pt;
+}
+
+/*Imagens dos albuns na pagina inicial*/
+.img_Album { 
+    width: 300px;
+    height: 300px;
+    border-radius: 100px;
+}
+
+/*Cada album individual na pagina inicial*/
+.Album { 
+    display: flex;
+    flex-direction: column;
+    flex: 0 0 calc(20% - 10px);
+    margin: 10px auto;
+    padding: 10px;
+    align-items: center;
+}
+
+/*Coleção de todos os albuns na pagina inicial*/
+.Albuns { 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+/*Titulo individual de cada pagina de album*/
+.titulo_Album { 
+    font-size: 3vw;
+    color: darkblue;
+    padding-left: 1vw;
+}
+
+/*Cada musica individual*/
+.Musica { 
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    text-align: center;
+    background-color: skyblue;
+    border-radius: 30px;
+}
+
+/*Titulo de cada musica*/
+.titulo_Musica { 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: darkblue;
+    width: 25%;
+}
+
+/*Coleção de todas as musicas*/
+.Colecao { 
+    margin: 0;
+}
+
+/*Caixa do áudio*/
+.track_Audio {
+    width: 100%;
+}
+
+/*div que contém o áudio individualmente*/
+.Audio {
+    display: flex;
+    align-items: center;
+    width: 75%;
+}
+
+/*Titulo da página inicial*/
+#titulo_Index {
+    display: flex;
+    justify-items: baseline;
+    padding-left: 7vw;
+    font-size: 3vw;
+}
+
+/*Estilização da barra de navegação em todas as páginas*/
+nav {
+    display: flex;
+    background-color: deepskyblue;
+    align-items: center;
+    justify-content: space-between;
+    height: 15vh;
+}
+
+/*Itens da lista na barra de navegação do inicio*/
+.it_nav_index {
+    margin: 1vw;
+    font-size: 2vw;
+}
+
+/*Estilização da aba de curiosidades*/
+#Curiosity {
+    display: none;
+    background-color: steelblue;
+    position: fixed;
+    margin: 10px;
+    padding: 10px;
+    text-align: justify;
+    width: 30vw;
+    height: 70%;
+    justify-content: right;
+    border-style: ridge;
+    border-color: lightsteelblue;
+    border-radius: 2%;
+    right: 1.5vw;
+    overflow: scroll;
+    overflow-x: hidden;
+    z-index: 20;
+}
+
+/*Itens da lista na barra de navegação dos albuns*/
+.it_nav_albuns { 
+    margin: 1vw;
+    font-size: 2vw;
+}
+
+/*Estilização da lista na barra de navegação do inicio*/
+#ls_nav_index {
+    display: flex;
+    list-style: none;
+    padding-right: 6vw;
+    color: darkblue;
+}
+
+/*Estilização da lista na barra de navegação dos albuns*/
+.ls_nav_albuns {
+    display: flex;
+    list-style: none;
+    padding-right: 3vw;
+}
+
+/*Item de login na lista da barra de navegação do início*/
+#ls_nav_index a {
+    display: flex;
+    text-decoration: none;
+    color: darkblue;
+}
+
+/*Item de login na lista da barra de navegação dos álbuns*/
+.ls_nav_albuns a {
+    display: flex;
+    text-decoration: none;
+    color: darkblue;
+}
+
+/*Efeitos da barra de navegação*/
+/*nav:hover {
+    background-color: deepskyblue; 
+    height: 30vh;
+    transition: 3s;
+}*/
+
+/*Mudar cor dos links das páginas*/
+a:hover {
+    color: lightskyblue;
+}
+
+/*Mudar a cor dos links da barra de navegação da página inicial*/
+#ls_nav_index a:hover {
+    color: lightskyblue;
+}

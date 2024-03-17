@@ -1,0 +1,254 @@
+/*Telas com no máximo 280px de largura*/
+@media screen and (max-width: 280px) {
+    /*Titulo da página inicial*/
+    #titulo_Index {
+        padding: 0; /* -------------------- removendo o padding*/
+        font-size: 5.5vw; /* -------------- alterando o tamanho da fonte*/
+        width: 90%; /* -------------------- ocupando 90% da largura da div pai*/
+        justify-content: center; /* ------- alinhando o texto no centro*/
+    }
+
+
+    /*Estilização da barra de navegação em todas as páginas*/
+    nav {
+        flex-direction: column-reverse; /*- invertendo a posição dos itens*/
+        justify-content: space-evenly;  /*- deixando os itens com espaçamento igual*/
+        height: 8vh; /* ------------------- alterando a altura da barra de navegação*/
+        width: 100vw;
+    }
+
+    /*Estilização da lista na barra de navegação do inicio*/
+    #ls_nav_index {
+        padding: 0; /* -------------------- removendo o padding*/
+        width: 82%; /* -------------------- ocupando 82% da largura da div pai*/
+        justify-content: space-between; /*- deixando os itens espaçados*/
+    }
+
+    /*Itens da lista na barra de navegação do inicio*/
+    .it_nav_index {
+        font-size: 4vw; /*----------------- alterando o tamanho da fonte*/
+    }
+
+    /*Titulo dos albuns na página inicial*/
+    .txt_Album { 
+        font-size: 15pt;
+    }
+
+    /*Imagens dos albuns na pagina inicial*/
+    .img_Album { 
+        width: 200px; /* ------------------ alterando a largura da imagem */
+        height: 200px; /* ----------------- alterando a altura da imagem*/
+        border-radius: 65px; /* ----------- alterando a curva da borda da imagem*/
+    }
+
+    /*Estilização da lista na barra de navegação dos albuns*/
+    .ls_nav_albuns {
+        padding-right: 0;
+    }
+
+    /*Itens da lista na barra de navegação dos albuns*/
+    .it_nav_albuns {
+        font-size: 4vw;
+    }
+
+    /*Titulo individual de cada pagina de album*/
+    .titulo_Album { 
+        font-size: 4.8vw;
+        padding: 0;
+    }
+
+    /*Cada musica individual*/
+    .Musica {
+        flex-direction: column;
+    }
+
+    
+    /*Titulo de cada musica*/
+    .titulo_Musica {
+        width: unset;
+        font-size: 4vw;
+        margin-bottom: 3px;
+    }
+
+    /*div que contém o áudio individualmente*/
+    .Audio {
+        width: 100%;
+    }
+}
+
+
+/*Telas com no máximo 375px*/
+@media screen and (min-width: 281px) and (max-width: 375px){
+    /*Titulo da página inicial*/
+    #titulo_Index {
+        padding: 0; /* -------------------- removendo o padding*/
+        font-size: 6vw; /* ---------------- alterando o tamanho da fonte*/
+        width: 90%; /* -------------------- ocupando 90% da largura da div pai*/
+        justify-content: center; /* ------- alinhando o texto no centro*/
+    }
+
+
+    /*Estilização da barra de navegação em todas as páginas*/
+    nav {
+        flex-direction: column-reverse; /*- invertendo a posição dos itens*/
+        justify-content: center; /*-------- deixando os itens no centro*/
+        height: 10vh; /* ------------------ alterando a altura da barra de navegação*/
+    }
+
+    /*Estilização da lista na barra de navegação do inicio*/
+    #ls_nav_index {
+        padding: 0; /* -------------------- removendo o padding*/
+        width: 87%; /* -------------------- ocupando 87% da largura da div pai*/
+        justify-content: space-between; /*- deixando os itens espaçados*/
+    }
+
+    /*Itens da lista na barra de navegação do inicio*/
+    .it_nav_index {
+        font-size: 4vw; /*----------------- alterando o tamanho da fonte*/
+    }
+
+    /*Titulo dos albuns na página inicial*/
+    .txt_Album { 
+        font-size: 15pt;
+    }
+
+    /*Imagens dos albuns na pagina inicial*/
+    .img_Album { 
+        width: 250px; /* ------------------ alterando a largura da imagem */
+        height: 250px; /* ----------------- alterando a altura da imagem*/
+        border-radius: 80px; /* ----------- alterando a curva da borda da imagem*/
+    }
+
+    /*Estilização da lista na barra de navegação dos albuns*/
+    .ls_nav_albuns {
+        padding-right: 0;
+    }
+
+    /*Itens da lista na barra de navegação dos albuns*/
+    .it_nav_albuns {
+        font-size: 4vw;
+    }
+
+    /*Titulo individual de cada pagina de album*/
+    .titulo_Album { 
+        font-size: 4.8vw;
+        padding: 0;
+    }
+
+    /*Cada musica individual*/
+    .Musica {
+        flex-direction: column;
+    }
+
+    
+    /*Titulo de cada musica*/
+    .titulo_Musica {
+        width: unset;
+        font-size: 4vw;
+        margin-bottom: 3px;
+    }
+
+    /*div que contém o áudio individualmente*/
+    .Audio {
+        width: 100%;
+    }
+}
+
+
+/*Telas com no máximo 768px*/
+@media screen and (min-width: 375px) and (max-width: 768px){
+
+    #Index {
+        width: 100vw;
+    }
+
+    /*Titulo da página inicial*/
+    #titulo_Index {
+        font-size: 20pt; /* -------------- alterando o tamanho da fonte*/
+        padding: 0;
+        position: relative;
+        bottom: 1vh;
+    }
+
+    /*Estilização da barra de navegação em todas as páginas*/
+    nav {
+        flex-direction: column-reverse; /*- invertendo a posição dos itens*/
+        height: 13vh; /* ------------------- alterando a altura da barra de navegação*/
+        justify-content: space-evenly; /* -------- deixand os itens centralizados*/
+    }
+
+    /*Estilização da lista na barra de navegação do inicio*/
+    #ls_nav_index {
+         /* -------------------- ocupando 90% da largura da div pai*/
+        padding: 0;
+        justify-content: right; /*- deixando os itens espaçados*/
+    }
+
+    /*Itens da lista na barra de navegação do inicio*/
+    .it_nav_index {
+        font-size: 12pt; /*----------------- alterando o tamanho da fonte*/
+    }
+
+    
+    /*Titulo dos albuns na página inicial*/
+    .txt_Album { 
+        font-size: 9pt;
+    }
+
+    /*Imagens dos albuns na pagina inicial*/
+    .img_Album { 
+        width: 200px; /* ------------------ alterando a largura da imagem */
+        height: 200px; /* ----------------- alterando a altura da imagem*/
+        border-radius: 47px; /* ----------- alterando a curva da borda da imagem*/
+    }
+
+    /*Estilização da lista na barra de navegação dos albuns*/
+    .ls_nav_albuns {
+        padding: 0;
+        justify-content: center;
+        width: 100%;
+    }
+
+    /*Itens da lista na barra de navegação dos albuns*/
+    .it_nav_albuns {
+        font-size: 12pt;
+        padding-right: 4vw;
+    }
+
+    /*Titulo individual de cada pagina de album*/
+    .titulo_Album { 
+        font-size: 18.5px;
+        padding-left: 2vw;
+        position: relative;
+        bottom: 1vh
+    }
+
+    /*Cada musica individual*/
+    .Musica {
+        flex-direction: column;
+        align-items: start;
+    }
+
+    
+    /*Titulo de cada musica*/
+    .titulo_Musica {
+        width: unset;
+        font-size: 15px;
+        margin-bottom: 3px;
+    }
+
+    /*div que contém o áudio individualmente*/
+    .Audio {
+        width: 100%;
+    }
+
+    /*Cada album individual na pagina inicial*/
+    .Album { 
+        padding-inline: 0;
+    }
+}
+
+/*Telas com acima de 1024px*/
+@media screen and (min-width: 768px) {
+    
+}
